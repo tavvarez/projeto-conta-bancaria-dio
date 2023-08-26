@@ -15,7 +15,7 @@ public class ContaTerminal {
 
         System.out.println("Por favor, digite o número da agencia: ");
         String agencia = sc.next();
-        createConta.setAgencia(agencia);
+        createConta.setAgencia(String.format(agencia));
 
         System.out.println("Por favor, digite o número da conta: ");
         int conta = sc.nextInt();
